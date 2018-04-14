@@ -9,7 +9,7 @@ from pyrogram import Client
 from pyrogram.api import functions
 from pyrogram.api.errors import FloodWait
 from tqdm import tqdm
-from tqdm import tgrange
+from tqdm import trange
 def prgr(cur,total):
     print('Downloading',round(cur/2**20,3),'Of',round(total/2**20,3))
 def savemedia(client,history):
